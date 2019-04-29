@@ -12,6 +12,5 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install -y apt-transport-https apt-utils curl php7.1-cli php7.1-mysql php7.1-curl php7.1-snmp
 
-
 script:
-  - php -m | grep snmp
+  - sudo php -m | grep snmp
